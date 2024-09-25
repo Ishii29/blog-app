@@ -1,4 +1,3 @@
-# blog_app
 
 # Laravel Blog API
 
@@ -20,8 +19,10 @@ This is a RESTful API for a blog application built using Laravel. It allows user
      composer install
 3. **Copy the example environment file**:
       cp .env.example .env
+   
 4.**Generate the application key**:
       php artisan key:generate
+      
 5.**Configure database**:
     Open the .env file and set database credentials:
 
