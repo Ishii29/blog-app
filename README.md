@@ -1,4 +1,5 @@
 **Laravel Blog API**
+
 This is a RESTful API for a blog application built using Laravel. It allows users to manage posts and comments with features like pagination, searching, and role-based access control.
 
 **Requirements**
@@ -8,11 +9,14 @@ MySQL or another supported database
 Laravel 8.x or higher
 
 **Installation**
-1. Clone the repository: git clone https://github.com/Ishii29/blog_app.git cd blog_app
+1. Clone the repository:
+   git clone https://github.com/Ishii29/blog-app.git
+   cd blog_app
 
-2. Install dependencies: composer install
+3. Install dependencies:
+   composer install
 
-3. Copy the example environment file:
+5. Copy the example environment file:
    cp .env.example .env
 4.Generate the application key:
     php artisan key:generate
